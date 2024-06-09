@@ -60,6 +60,8 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Problem1.executor": "Run",
+    "Application.Problem10.executor": "Run",
+    "Application.Problem11.executor": "Run",
     "Application.Problem2.executor": "Run",
     "Application.Problem3.executor": "Run",
     "Application.Problem4.executor": "Run",
@@ -76,7 +78,7 @@
     "onboarding.tips.debug.path": "/Users/nitinrastogi/IdeaProjects/CodingPractice/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Problem10">
+  <component name="RunManager" selected="Application.Problem11">
     <configuration name="Problem10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem10" />
       <module name="CodingPractice" />
@@ -90,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem6" />
+    <configuration name="Problem11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem11" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem11" />
         <item itemvalue="Application.Problem10" />
         <item itemvalue="Application.Problem9" />
         <item itemvalue="Application.Problem8" />
         <item itemvalue="Application.Problem7" />
-        <item itemvalue="Application.Problem6" />
       </list>
     </recent_temporary>
   </component>
