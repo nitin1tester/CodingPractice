@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8b1d1b5-e1b2-4fc6-980a-26ea19e78bf8" name="Changes" comment="Write a Java program to print 'Hello' on screen and your name on a separate line.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,9 @@
     "Application.Problem3.executor": "Run",
     "Application.Problem4.executor": "Run",
     "Application.Problem5.executor": "Run",
+    "Application.Problem6.executor": "Run",
+    "Application.Problem7.executor": "Run",
+    "Application.Problem8.executor": "Run",
     "Application.canConstruct.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,46 +76,7 @@
     "onboarding.tips.debug.path": "/Users/nitinrastogi/IdeaProjects/CodingPractice/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Problem6">
-    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem2" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basic_Part_I.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem3" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basic_Part_I.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem4" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basic_Part_I.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Problem9">
     <configuration name="Problem5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem5" />
       <module name="CodingPractice" />
@@ -138,13 +103,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem7" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic_Part_I.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem8" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic_Part_I.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem9" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic_Part_I.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem9" />
+        <item itemvalue="Application.Problem8" />
+        <item itemvalue="Application.Problem7" />
         <item itemvalue="Application.Problem6" />
         <item itemvalue="Application.Problem5" />
-        <item itemvalue="Application.Problem4" />
-        <item itemvalue="Application.Problem3" />
-        <item itemvalue="Application.Problem2" />
       </list>
     </recent_temporary>
   </component>
@@ -237,5 +241,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Write a Java program to print 'Hello' on screen and your name on a separate line." />
     <option name="LAST_COMMIT_MESSAGE" value="Write a Java program to print 'Hello' on screen and your name on a separate line." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem6.java</url>
+          <line>23</line>
+          <properties class="Basic_Part_I.Problem6" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
