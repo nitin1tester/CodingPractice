@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b1d1b5-e1b2-4fc6-980a-26ea19e78bf8" name="Changes" comment="Write a Java program to print 'Hello' on screen and your name on a separate line.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,8 @@
     "Application.Main.executor": "Run",
     "Application.Problem1.executor": "Run",
     "Application.Problem2.executor": "Run",
+    "Application.Problem3.executor": "Run",
+    "Application.Problem4.executor": "Run",
     "Application.canConstruct.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,7 +71,7 @@
     "onboarding.tips.debug.path": "/Users/nitinrastogi/IdeaProjects/CodingPractice/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Problem3">
+  <component name="RunManager" selected="Application.Problem5">
     <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem1" />
       <module name="CodingPractice" />
@@ -109,12 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="canConstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.canConstruct" />
+    <configuration name="Problem4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem4" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingPractice.*" />
+          <option name="PATTERN" value="Basic_Part_I.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem5" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic_Part_I.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,10 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem5" />
+        <item itemvalue="Application.Problem4" />
         <item itemvalue="Application.Problem3" />
         <item itemvalue="Application.Problem2" />
         <item itemvalue="Application.Problem1" />
-        <item itemvalue="Application.canConstruct" />
       </list>
     </recent_temporary>
   </component>
