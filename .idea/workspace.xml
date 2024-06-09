@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8b1d1b5-e1b2-4fc6-980a-26ea19e78bf8" name="Changes" comment="Write a Java program to print 'Hello' on screen and your name on a separate line.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,27 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nitin1tester"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1a9c222f-19f5-412e-9cb5-fa2a9dddc0df" />
+        <option name="url" value="https://github.com/nitin1tester/CodingPractice.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem1.java" root0="FORCE_HIGHLIGHTING" />
@@ -40,6 +61,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Problem1.executor": "Run",
+    "Application.Problem2.executor": "Run",
     "Application.canConstruct.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -48,9 +70,22 @@
     "onboarding.tips.debug.path": "/Users/nitinrastogi/IdeaProjects/CodingPractice/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Problem1">
+  <component name="RunManager" selected="Application.Problem2">
     <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem1" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic_Part_I.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem2" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -77,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem2" />
         <item itemvalue="Application.Problem1" />
         <item itemvalue="Application.canConstruct" />
       </list>
