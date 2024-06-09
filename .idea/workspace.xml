@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8b1d1b5-e1b2-4fc6-980a-26ea19e78bf8" name="Changes" comment="Write a Java program to print 'Hello' on screen and your name on a separate line.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,7 @@
     "Application.Problem6.executor": "Run",
     "Application.Problem7.executor": "Run",
     "Application.Problem8.executor": "Run",
+    "Application.Problem9.executor": "Run",
     "Application.canConstruct.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -76,9 +76,9 @@
     "onboarding.tips.debug.path": "/Users/nitinrastogi/IdeaProjects/CodingPractice/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Problem9">
-    <configuration name="Problem5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem5" />
+  <component name="RunManager" selected="Application.Problem10">
+    <configuration name="Problem10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem10" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem10" />
         <item itemvalue="Application.Problem9" />
         <item itemvalue="Application.Problem8" />
         <item itemvalue="Application.Problem7" />
         <item itemvalue="Application.Problem6" />
-        <item itemvalue="Application.Problem5" />
       </list>
     </recent_temporary>
   </component>
