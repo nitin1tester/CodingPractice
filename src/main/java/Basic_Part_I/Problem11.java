@@ -12,7 +12,6 @@ public class Problem11 {
         Area is = 176.71458676442586
         *
         * */
-
         float Radius = 7.5f;
         double Area = (pi)*Radius*Radius;
         double Perimeter = 2*(pi)*Radius;
