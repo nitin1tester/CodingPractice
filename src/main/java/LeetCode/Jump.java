@@ -1,5 +1,5 @@
 package LeetCode;
-//55. Jump Game
+//55. Jump Game code
 public class Jump {
     public static void main(String[] args){
         int[] nums = {2,0};
