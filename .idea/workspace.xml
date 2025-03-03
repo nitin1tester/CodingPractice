@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b1d1b5-e1b2-4fc6-980a-26ea19e78bf8" name="Changes" comment="Write a Java program to print 'Hello' on screen and your name on a separate line.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Jump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Jump.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +36,12 @@
     &quot;assignee&quot;: &quot;nitin1tester&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="1a9c222f-19f5-412e-9cb5-fa2a9dddc0df" />
-        <option name="url" value="https://github.com/nitin1tester/CodingPractice.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nitin1tester/CodingPractice.git",
+    "accountId": "ae9dfce1-76d9-4e8a-aac2-66a05be9010e"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem1.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -57,35 +56,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Jump.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Problem1.executor": "Run",
-    "Application.Problem10.executor": "Run",
-    "Application.Problem11.executor": "Run",
-    "Application.Problem12.executor": "Run",
-    "Application.Problem13.executor": "Run",
-    "Application.Problem2.executor": "Run",
-    "Application.Problem3.executor": "Run",
-    "Application.Problem4.executor": "Run",
-    "Application.Problem5.executor": "Run",
-    "Application.Problem6.executor": "Run",
-    "Application.Problem7.executor": "Run",
-    "Application.Problem8.executor": "Run",
-    "Application.Problem9.executor": "Run",
-    "Application.Recursive_P1.executor": "Run",
-    "Application.Recursive_P2.executor": "Run",
-    "Application.canConstruct.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/nitinrastogi/IdeaProjects/CodingPractice/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Jump.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem2.executor&quot;: &quot;Run&quot;,
     &quot;Application.Problem3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursive_P1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursive_P2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.canConstruct.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/nitinrastogi/IdeaProjects/CodingPractice/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &amp;quot;Application.Problem3.executor&amp;quot;: &amp;quot;Run&amp;quot;,
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Jump">
     <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Jump" />
@@ -161,13 +160,6 @@
         <item itemvalue="Application.Problem12" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -263,41 +255,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Jump.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Jump.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Jump.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Jump.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Jump.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Jump.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Jump.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
