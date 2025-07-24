@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b1d1b5-e1b2-4fc6-980a-26ea19e78bf8" name="Changes" comment="Write a Java program to print 'Hello' on screen and your name on a separate line.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -36,12 +37,12 @@
     &quot;assignee&quot;: &quot;nitin1tester&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nitin1tester/CodingPractice.git",
-    "accountId": "ae9dfce1-76d9-4e8a-aac2-66a05be9010e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nitin1tester/CodingPractice.git&quot;,
+    &quot;accountId&quot;: &quot;ae9dfce1-76d9-4e8a-aac2-66a05be9010e&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/Basic_Part_I/Problem1.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -85,13 +86,13 @@
     &amp;quot;Application.Problem3.executor&amp;quot;: &amp;quot;Run&amp;quot;,
   }
 }</component>
-  <component name="RunManager" selected="Application.Jump">
-    <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Jump" />
+  <component name="RunManager" selected="Application.StringPracticePart1_1To50">
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewPractice.DepartmentSalaryAnalysis.EmployeeTest" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="InterviewPractice.DepartmentSalaryAnalysis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem12" />
+    <configuration name="RoleBandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EnumPractice.RoleAndBand.RoleBandTest" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic_Part_I.*" />
+          <option name="PATTERN" value="EnumPractice.RoleAndBand.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic_Part_I.Problem13" />
+    <configuration name="StringPracticePart1_1To50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringPractice.StringPracticePart1_1To50" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic_Part_I.*" />
+          <option name="PATTERN" value="StringPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursive_P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursive_Methods.Recursive_P1" />
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewPractice.StudentGradeTracker.StudentTest" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursive_Methods.*" />
+          <option name="PATTERN" value="InterviewPractice.StudentGradeTracker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursive_P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursive_Methods.Recursive_P2" />
+    <configuration name="TestDesignation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EnumPractice.Designation.TestDesignation" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursive_Methods.*" />
+          <option name="PATTERN" value="EnumPractice.Designation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Jump" />
-        <item itemvalue="Application.Recursive_P2" />
-        <item itemvalue="Application.Recursive_P1" />
-        <item itemvalue="Application.Problem13" />
-        <item itemvalue="Application.Problem12" />
+        <item itemvalue="Application.StringPracticePart1_1To50" />
+        <item itemvalue="Application.EmployeeTest" />
+        <item itemvalue="Application.StudentTest" />
+        <item itemvalue="Application.RoleBandTest" />
+        <item itemvalue="Application.TestDesignation" />
       </list>
     </recent_temporary>
   </component>
@@ -255,6 +256,105 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>115</line>
+          <properties class="ArrayPractice.ArrayPracticePart1_1To50" method="ConvertArrayToArrayList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>228</line>
+          <properties class="ArrayPractice.ArrayPracticePart1_1To50" method="DifferenceBetweenMaxAndMinValues">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>389</line>
+          <properties class="ArrayPractice.ArrayPracticePart1_1To50" method="FindSmallestAndSecondSmallestInAnArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>444</line>
+          <properties class="ArrayPractice.ArrayPracticePart1_1To50" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/InterviewPractice/StudentGradeTracker/StudentTest.java</url>
+          <line>7</line>
+          <properties class="InterviewPractice.StudentGradeTracker.StudentTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java</url>
+          <line>72</line>
+          <properties class="StringPractice.StringPracticePart1_1To50" method="isPalindrome">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>318</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>317</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>316</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>371</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>372</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>377</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>378</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesignPatterns/Factory/roundCake.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
