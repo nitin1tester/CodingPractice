@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b1d1b5-e1b2-4fc6-980a-26ea19e78bf8" name="Changes" comment="Write a Java program to print 'Hello' on screen and your name on a separate line.">
+    <list default="true" id="e8b1d1b5-e1b2-4fc6-980a-26ea19e78bf8" name="Changes" comment="Added more files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CollectionPractice/ArrayListPractice/ArrayListSoluitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CollectionPractice/ArrayListPractice/ArrayListSoluitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,18 +19,50 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="developLocal" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--follow-tags" />
         <option name="title" value="Current Branch" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -37,6 +72,31 @@
     &quot;assignee&quot;: &quot;nitin1tester&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1780274191" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="developLocal" />
+                    <option name="lastUsedInstant" value="1753332223" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/nitin1tester/CodingPractice.git&quot;,
@@ -86,13 +146,18 @@
     &amp;quot;Application.Problem3.executor&amp;quot;: &amp;quot;Run&amp;quot;,
   }
 }</component>
-  <component name="RunManager" selected="Application.StringPracticePart1_1To50">
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewPractice.DepartmentSalaryAnalysis.EmployeeTest" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ArrayListSoluitions">
+    <configuration name="ArrayListSoluitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionPractice.ArrayListPractice.ArrayListSoluitions" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewPractice.DepartmentSalaryAnalysis.*" />
+          <option name="PATTERN" value="CollectionPractice.ArrayListPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +165,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoleBandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnumPractice.RoleAndBand.RoleBandTest" />
+    <configuration name="ArrayPracticePart1_1To50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.ArrayPracticePart1_1To50" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EnumPractice.RoleAndBand.*" />
+          <option name="PATTERN" value="ArrayPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaunchBrowserUseCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumTraining.Fundamentals.LaunchBrowserUseCase" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTraining.Fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,25 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewPractice.StudentGradeTracker.StudentTest" />
+    <configuration name="WebdriverMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumTraining.Fundamentals.WebdriverMethods" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewPractice.StudentGradeTracker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDesignation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnumPractice.Designation.TestDesignation" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EnumPractice.Designation.*" />
+          <option name="PATTERN" value="SeleniumTraining.Fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListSoluitions" />
+        <item itemvalue="Application.ArrayPracticePart1_1To50" />
         <item itemvalue="Application.StringPracticePart1_1To50" />
-        <item itemvalue="Application.EmployeeTest" />
-        <item itemvalue="Application.StudentTest" />
-        <item itemvalue="Application.RoleBandTest" />
-        <item itemvalue="Application.TestDesignation" />
+        <item itemvalue="Application.WebdriverMethods" />
+        <item itemvalue="Application.LaunchBrowserUseCase" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717899631226</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added more files">
+      <option name="closed" value="true" />
+      <created>1753321934972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753321934972</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +316,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Write a Java program to print 'Hello' on screen and your name on a separate line." />
-    <option name="LAST_COMMIT_MESSAGE" value="Write a Java program to print 'Hello' on screen and your name on a separate line." />
+    <MESSAGE value="Added more files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,7 +333,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>115</line>
+          <line>117</line>
           <properties class="ArrayPractice.ArrayPracticePart1_1To50" method="ConvertArrayToArrayList">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -268,7 +342,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>228</line>
+          <line>230</line>
           <properties class="ArrayPractice.ArrayPracticePart1_1To50" method="DifferenceBetweenMaxAndMinValues">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -277,21 +351,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>389</line>
+          <line>393</line>
           <properties class="ArrayPractice.ArrayPracticePart1_1To50" method="FindSmallestAndSecondSmallestInAnArray">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>444</line>
-          <properties class="ArrayPractice.ArrayPracticePart1_1To50" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/InterviewPractice/StudentGradeTracker/StudentTest.java</url>
@@ -303,47 +368,65 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java</url>
-          <line>72</line>
-          <properties class="StringPractice.StringPracticePart1_1To50" method="isPalindrome">
+          <url>file://$PROJECT_DIR$/target/classes/ArrayPractice/ArrayPracticePart1_1To50.class</url>
+          <line>494</line>
+          <properties class="ArrayPractice.ArrayPracticePart1_1To50">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="50" />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/JavaTraining/InheritanceConcept/BMW.java</url>
+          <line>6</line>
+          <properties class="JavaTraining.InheritanceConcept.BMW" method="start">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java</url>
+          <line>700</line>
+          <properties class="StringPractice.StringPracticePart1_1To50" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>318</line>
+          <line>322</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>317</line>
+          <line>321</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>316</line>
+          <line>320</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>371</line>
+          <line>375</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>372</line>
+          <line>376</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>377</line>
+          <line>381</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
-          <line>378</line>
+          <line>382</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -353,8 +436,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java</url>
-          <line>101</line>
+          <line>102</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/classes/StringPractice/StringPracticePart1_1To50.class</url>
+          <line>362</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java</url>
+          <line>415</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java</url>
+          <line>436</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StringPractice/StringPracticePart1_1To50.java</url>
+          <line>542</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ArrayPractice/ArrayPracticePart1_1To50.java</url>
+          <line>448</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

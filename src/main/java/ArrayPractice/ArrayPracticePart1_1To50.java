@@ -1,7 +1,8 @@
 package ArrayPractice;
 
-import java.lang.reflect.Array;
 import java.rmi.dgc.Lease;
+import java.sql.Array;
+import java.sql.SQLOutput;
 import java.util.*;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -20,8 +21,9 @@ public class ArrayPracticePart1_1To50 {
     public static Integer[] arrNum4 = {1, -2, 0, 5, -1, -4, 2};
     public static Integer[] arrNum5 = {1, 6, 6, 5, 7, 4, 1, 7, 7, 7, 7, 7, 7, 7, 2};
     public static Integer[] arrNum6 = {10, 9, 14, 23, 15, 0, 9, 8};
-    public static Integer[] arrNum7 = {1, 5, -4, 7, 8, -6};
+    public static int[] arrNum7 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
     public static Integer[] arrNum8 = {0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1};
+//    public static Integer[] arrNUM9 = {−2, 1, −3, 4, −1, 2, 1, −5, 4};
 
 
 
@@ -313,6 +315,8 @@ public class ArrayPracticePart1_1To50 {
         for (int i = 0; i < arr.length-1; i++) {
             for (int j = i+1; j < arr.length-1; j++) {
                 if (arr[i] + arr[j] == sum) {
+
+
                     List<Integer> listNum = new ArrayList<>();
                     listNum.add(arr[i]);
                     listNum.add(arr[j]);
@@ -440,9 +444,134 @@ public class ArrayPracticePart1_1To50 {
 //        }
 //    }
 
+    public static int returnMaxSumOfSubstring(int[] arr){
+        int currentSum = 0;
+        int max = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i; j < arr.length; j++) {
+                if (max < currentSum) {
+                    currentSum = currentSum + arr[i];
+                    max = currentSum;
+                }else {
+                    break;
+                }
+            }
+        }
+        System.out.println("This is sum : " + currentSum);
+        return  currentSum;
+    }
+
+    private static int[] moveAllZeroToEnd(int[] arr) {
+        int[] arrNew = new int[arr.length];
+        int counter = 0;
+        for (int i = 0; i < arrNew.length; i++) {
+            if (arr[i] != 0) {
+                arrNew[counter] = arr[i];
+                counter++;
+            }
+        }
+        System.out.println(Arrays.toString(arrNew));
+        return arrNew;
+    }
+
+    private static int[] moveGivenNumberToEnd(int[] arr, int num) {
+        int counter = 0;
+        int[] arrNew = new int[arr.length];
+        if (num != 0) {
+            for (int i = 0; i < arr.length; i++) {
+                arrNew[i] = num;
+            }
+        }
+        System.out.println(Arrays.toString(arrNew));
+        for (int i = 0; i < arrNew.length; i++) {
+            if (arr[i] != num ) {
+                arrNew[counter] = arr[i];
+                counter++;
+            }
+        }
+        System.out.println(Arrays.toString(arrNew));
+        return arrNew;
+    }
+
+    private static List<Integer> twoSumNew(int[] arr, int sum) {
+        List<Integer> arrList = new ArrayList<>();
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1; j < arr.length; j++) {
+                if (arr[i]+arr[j] == sum) {
+                    arrList.add(arr[i]);
+                    arrList.add(arr[j]);
+                    System.out.println(arrList);
+                    return arrList;
+                }
+            }
+        }
+        System.out.println(arrList);
+        return arrList;
+    }
+
+    private static int maxSumOfGivenWindow(int[] arr, int size) {
+        int winSum = 0;
+        int maxSum = 0;
+        for (int i = 0; i < size; i++) {
+            winSum = winSum + arr[i];
+        }
+        for (int i = size; i < arr.length; i++) {
+            winSum = winSum - arr[i-size];
+            winSum = winSum + arr[i];
+            if (winSum > maxSum) {
+                maxSum = winSum;
+            }
+        }
+        System.out.println("this is maxSum : " + maxSum);
+        return maxSum;
+    }
+
+    private static float avarage(Float sum , int size){
+        return sum/size;
+    }
+
+    private static List<Object> averageOfEverySubarray(int[] arr, int size) {
+        List<Object> arrList = new ArrayList<>();
+        float windowSum = 0;
+        for (int i = 0; i < size; i++) {
+            windowSum = windowSum + arr[i];
+        }
+        arrList.add(avarage(windowSum,size));
+
+        for (int i = size; i < arr.length; i++) {
+            windowSum = windowSum -arr[i-size] + arr[i];
+            arrList.add(avarage(windowSum,size));
+        }
+        System.out.println(arrList);
+        return arrList;
+    }
+
+    private static void smallestArraySumIsEqualToGivenNum(int[] arr, int num) {
+
+        int windowStart = 0;
+        int windowSum = 0;
+
+        for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
+
+            windowSum = windowSum + arr[windowEnd];
+
+            while (windowSum >= num){
+
+
+            }
+        }
+
+
+    }
+
+
 
 
     public static void main(String[] args) {
-        ArrayPracticePart1_1To50.Separate0sAnd1sInAnArrayOf0sAnd1s(arrNum8);
+        int arr[] = {2,1,5,2,3,2};
+        smallestArraySumIsEqualToGivenNum(arr, 5);
     }
+
+
+
 }

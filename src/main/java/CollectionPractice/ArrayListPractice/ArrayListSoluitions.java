@@ -8,7 +8,7 @@ public class ArrayListSoluitions {
     public static List<String> arrayList = new ArrayList<>();
 
     public static List<String> arrList = Arrays.asList("Nitin", "Shraddha", "Arjun", "Naman", "Ram", "Nitin" ,"Shyam", "Shraddha", "Shraddha", "Shraddha", "Raman", "Rohit");
-    public static void PrintArrayListColor(){
+    private static void printArrayListColor(){
         arrayList.add("Black");
         arrayList.add("Red");
         arrayList.add("Green");
@@ -27,10 +27,7 @@ public class ArrayListSoluitions {
     }
 
     public static void main(String[] args) {
-        arrList.stream().distinct().forEach(a -> System.out.print(" " + a));
-        System.out.println(arrList);
-        Long num = arrList.stream().filter(a->a.startsWith(String.valueOf('S'))).count();
-        System.out.println(num);
+        printArrayListColor();
     }
 
 }
